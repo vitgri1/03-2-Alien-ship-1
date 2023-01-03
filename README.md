@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://vitgri1.github.io/
+Site published at: https://vitgri1.github.io/03-2-Alien-ship-1/
 
 Design: [Name](https://cdn.dribbble.com/users/1037652/screenshots/2815937/404-1.png)
 
