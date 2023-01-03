@@ -2,3 +2,75 @@ body{
     margin: 0;
     background-color: #849EB1;
 }
+
+.container{
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    margin-top: 150px;
+    background-color: #fff;
+}
+
+.left-column{
+    float: left;
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 60px;
+}
+
+.heading{
+    margin: 0;
+    font-size: 80px;
+    line-height: 1em;
+    color: #279CEF;
+    margin-top: 130px;
+}
+
+.content{
+    margin: 0;
+    font-size: 40px;
+    line-height: 1em;
+    color: #5F5F5F;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.button{
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    color: #279CEF;
+    font-size: 20px;
+    line-height: 1em;
+    border-radius: 2em;
+    border: solid  1px #279CEF;
+    padding: 0.5em 1.5em;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: #279CEF;
+    border-color: #5F5F5F;
+}
+
+.right-column{
+    float: right;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.main-image{
+    width: 100%;
+    margin: 80px 0;
+}
+
+.default,
+.right-column:hover > .grayed-out{
+    display: block;
+}
+
+.right-column:hover >.default,
+.grayed-out{
+    display: none;
+}
