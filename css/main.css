@@ -9,6 +9,7 @@ body{
     margin-left: calc(50% - 400px);
     margin-top: 150px;
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .left-column{
